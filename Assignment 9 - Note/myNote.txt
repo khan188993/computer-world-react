@@ -1,0 +1,50 @@
+*)website dekhabe setar (name,look,img change krte parbo,)
+*)ana likhe github e search krbo and submit er jonno link pabo, private repo,
+*)submit krte hobe (private repo link and netlify link live)
+*)mobile er website dekhaise (ami - leptop,watch,)
+*)meaning full lekha hote hobe sob gulo,(live demo button optional,)
+*)header must banate hobe,(route diye(style optional))
+*)css j kno framwork use krte parbo (ami bootstrap use krbo,)
+
+customer review
+----------------------
+*)normal hishe be 6 ta (bonus e details asche,) niche see all btn(useNavigation) thakbe review name route e niye jte, review nav er tao same,
+*)review related fake data touri kre nivo (fake),(name,reviewtext,rating,chobi(optional))(rating text likhe ba start diye krte parbo,)
+*)404 route banate hobe, (fansy 404 page paowa jai setao dite pari,)
+*)minimum 6 ta commit krte hobe,(meaning full component hobe)
+*)jodi kno route e jai deploy e reload e 404 na dekhai na, error check krbo,
+*)
+
+Dashboard 
+----------------------
+*)je kno 2 ta dekhate hobe,4 ta hole valo,
+*)chart er data repo te pabo,(data.json caile modified krte parbo,kachakachi data hobe etar,)
+
+Basic other marks
+------------------------
+Title change meaningful dibo,fav change (optional)
+
+bonus mark requirement:
+------------------------------
+*)repo readme te (projectName,live link, feature list 5 ta atlease)
+*)destructuring use krte hobe,meaning component,variabe,
+*)review load api theke krbo and alada na kore (custom hook baniye use krbo,)
+*)review page e 6ta ba beshi but section e 3 ta dekhabo, length diye showkrbo
+
+blogs question 
+-----------------------
+*)3ta question thakbe 2ta must for bonus marks (english/ bangla(5-10 line))
+[context api ki , semintic tag ki,inline/block/inline-block er modhe parthokko ki,]
+
+optional task:
+-------------------------
+active route(classname diye krbo),responsive task optional,
+contact ,about ,aro mon caile extra route banate pari,
+
+support session : 
+------------------------
+git and deploy related issue,(11,3,10)
+
+*)reacDom.render 18 te support kre na eita avoid krbo,
+*)npm install rechart --force
+

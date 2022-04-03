@@ -1,0 +1,13 @@
+Computer World - name logo,
+*)home,review page,Dashboard,about,contact,
+*)home page e (hero section,review section 3 ta compo with btn)
+*)reviewData and chart data ( api fake baniye dekhabo,reviewData er fetch custom hook krbo,)
+*)Dashboard (2 ta chart use krbo eita last e krbo)
+*)desing ta boostrap diye krbo,
+*)nav,hero section , review customer,
+*)route basic ta age setup krbo,
+*)age static desing krbo (css ,html alada kore,)
+*)last e functionality use krbo,
+
+Desing krbo,
+(header section (logo, navbar,),hero section(leptop,title,p,button,),review SEction(3ta card dekhabo),review page 6/8 col e dekhabo card,dashboard chart last e,blog 3ta lekhbo blog site theke idea niye, contact form jodi time thake,)
