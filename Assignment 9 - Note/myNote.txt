@@ -1,16 +1,7 @@
-*)website dekhabe setar (name,look,img change krte parbo,)
-*)ana likhe github e search krbo and submit er jonno link pabo, private repo,
-*)submit krte hobe (private repo link and netlify link live)
-*)mobile er website dekhaise (ami - leptop,watch,)
-*)meaning full lekha hote hobe sob gulo,(live demo button optional,)
-*)header must banate hobe,(route diye(style optional))
-*)css j kno framwork use krte parbo (ami bootstrap use krbo,)
+
 
 customer review
 ----------------------
-*)normal hishe be 6 ta (bonus e details asche,) niche see all btn(useNavigation) thakbe review name route e niye jte, review nav er tao same,
-*)review related fake data touri kre nivo (fake),(name,reviewtext,rating,chobi(optional))(rating text likhe ba start diye krte parbo,)
-*)404 route banate hobe, (fansy 404 page paowa jai setao dite pari,)
 *)minimum 6 ta commit krte hobe,(meaning full component hobe)
 *)jodi kno route e jai deploy e reload e 404 na dekhai na, error check krbo,
 *)

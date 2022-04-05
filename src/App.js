@@ -12,6 +12,7 @@ import BlogDetails from "./pages/BlogDetails/BlogDetails";
 import ContactUs from "./pages/ContactUs/ContactUs";
 import Navbar from "./component/Navbar/Navbar";
 import Header from "./component/Header/Header";
+import Footer from "./component/Footer/Footer";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
                 <Route path="/blog/:id" element={<BlogDetails />} />
                 <Route path="*" element={<Error />} />
             </Routes>
+            <Footer/>
         </>
     );
 }

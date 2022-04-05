@@ -14,7 +14,6 @@ const Home = () => {
             <Reviews/>
             <Blogs/>
             <Contact/>
-            <Footer/>
  
         </>
     );
