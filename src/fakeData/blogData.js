@@ -1,85 +1,25 @@
 const blogs = [
     {
         id: "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
-        title: "How Context API Works?",
+        title: "Context Api কি এবং কিভাবে কাজ করে?",
         img: "./assets/blogs/context-api.png",
-        desc:"the Context API helps to avoid prop drilling in our React application. if you don't know about the term prop drilling. So let's understand that first. ______________  In React, we can pass the data only in a single direction, i.e. from top to down (parent to child) via props. Prop drilling is a process where we need to pass down the props at each level in a deeply nested component tree so that we can access them in the component at the lowest level.  Context in React just provides a way to pass the data directly to the required components rather than passing them through every level of the component tree. So using React Context, we don't have to pass the props unnecessarily to all those intermediate components that do not need the   ",
+        desc:`Context Api হচ্ছে  ReactJS এর State Management এর Props Driling করার জন্য ব্যবহৃত একটি Hook.  এটি ব্যবহার করে খুব সহজে State Data Manage করা যায়। React এ নোরমাল Way তে Props Driling এর জন্য Data component এ পাস করার জন্য Step By step pass করে করে আগাতে হয় যেমন মনে করি GrandFather নামে একটা Component আছে তার ভিতর একটি Father নামে Component বানালাম আবার Father component এর ভিতর Child নামে একটি Component বানালাম, এখন যদি আমরা GrandFather থেকে Child এ React এর নোরমাল Way তে DATA পাস করতে চাই তবে সেটার জন্য  ডাটা কে Father কে  মাধ্যম বানিয়ে Child এ পাঠাতে হবে এখানে Data Pass এর জন্য Father Component এর উপর Depend করা লাগছে কিন্তু Context Api এর ব্যবহার করলে কোন Component এর উপর Depend করা লাগবে না এটি দিয়ে সরাসরি Data pass করা যাবে Father to child বা GrandFather to Child Etc. এটি ব্যবহার এর জন্য GrandComponent(App.js) এর ভিতর একটি Hook import করতে হবে CreateContext নামে সেটা দিয়ে Context বানিয়ে Provider এর সাহায্যে যত Component আছে সবার কাছে ডাটা পাস করা যাবে সেগুলো আবার UseContext দিয়ে Retrieve করতে হবে। `
     },
     {
         id: "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
-        title: "What is the different between block inline and inline-block tags?",
+        title: "Block || Inline || Inline-Block এদের মধ্যে Difference কি?",
         img: "./assets/blogs/display-inline.png",
-        desc:"Semantic HTML5 addresses this shortcoming by defining specific tags to indicate clearly what role is played by the content those tags contain.For example, header, Footer, article are considered semantic elements as they clearly describe their purpose and the type of content they should enclose. Semantic tags also help search engines to parse the webpage correctly and find accurate information. Thus, helping search engines to correctly index the page.",
+        desc:`Block,Inline ও Inline-block এরা হচ্ছে CSS এর Display Property এর কিছু Values,Display Block করলে যে কোন Inline HTML TAG ব্লক ট্যাগ এ পরিণত হবে।  Block Tag গুলো সাধারণত Full Width নিয়ে কাজ করে থাকে।  Inline Tag সাধারণত তার কনটেন্ট এর Width নিয়ে কাজ কে করে , এটিতে CSS Property Margin Top/Bottom কাজ করে না, Inlnie-block হচ্ছে এমন একটি ভ্যালু যা Inline এর মতো তার Content এর Width নিয়ে কাজ করে আবার এটিতে Margin top/Bottom ব্যবহার করা যাই।  `,
+
     },
     {
         id: "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
         title: "What is simentic tag ?",
         img: "./assets/blogs/simentic-tag.png",
-        desc:"Semantic HTML5 addresses this shortcoming by defining specific tags to indicate clearly what role is played by the content those tags contain.For example, header, Footer, article are considered semantic elements as they clearly describe their purpose and the type of content they should enclose. Semantic tags also help search engines to parse the webpage correctly and find accurate information. Thus, helping search engines to correctly index the page.",
+        desc:`The benefit of writing semantic HTML stems from what should be the driving goal of any web page: the desire to communicate. By adding semantic tags to your document, you provide additional information about that document, which aids in communication.Semantic HTML tags provide information about the contents of those tags that goes beyond just how they look on a page. Text that is enclosed in the <code> tag is immediately recognized by the browser as some type of coding language. some examples of symentic tags are [h1,p,li,ul,a,b etc]`,
         
     },
-    // {
-    //     id: "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
-    //     title: "Piaget",
-    //     img: "./watches-images/watch-4.jpg",
-    //     desc:"Buy the best watch from our shop.find a watch you never before.",
-        
-    // },
-    // {
-    //     id: "6e5593d3-557b-43cf-8dab-a5140faedfb0",
-    //     title: "Cartier",
-    //     img: "./watches-images/watch-5.jpg",
-    //     desc:"Buy the best watch from our shop.find a watch you never before.",
-       
-    // },
-    // {
-    //     id: "9c0c13c2-54e4-4001-809b-afbd9d84037d",
-    //     title: "Harry Winston",
-    //     img: "./watches-images/watch-6.jpg",
-    //     desc:"Buy the best watch from our shop.find a watch you never before.",
-        
-    // },
-    // {
-    //     id: "c9d1f410-d28f-49d9-9b01-d759b5acbeea",
-    //     title: "Blancpain",
-    //     img: "./watches-images/watch-7.jpg",
-    //     desc:"Buy the best watch from our shop.find a watch you never before.",
-        
-    // },
-    // {
-    //     id: "1564a06b-692f-4f2e-8413-9c8a1cc2da77",
-    //     title: "Longines",
-    //     img: "./watches-images/watch-8.jpg",
-    //     desc:"Buy the best watch from our shop.find a watch you never before.",
-        
-    // },
-    // {
-    //     id: "ac44095f-230e-4502-8816-dea3eaae8320",
-    //     title: "ULTRABOOST 22 SHOES",
-    //     img: "./watches-images/watch-9.jpg",
-    //     desc:"Buy the best watch from our shop.find a watch you never before.",
-        
-    // },
-    // {
-    //     id: "d0803f97-966f-4296-ad31-a7f70fc86fab",
-    //     title: "Zenith",
-    //     img: "./watches-images/watch-10.jpg",
-    //     desc:"Buy the best watch from our shop.find a watch you never before.",
-        
-    // },
-    // {
-    //     id: "8a5b4a9c-76ea-4fbb-9c70-9548de4eab01",
-    //     title: "Tudor",
-    //     img: "./watches-images/watch-11.jpg",
-    //     desc:"Buy the best watch from our shop.find a watch you never before.",
-        
-    // },
-    // {
-    //     id: "b357e19b-4dd9-4fc7-b5c0-9ed5255464ba",
-    //     title: "Omega",
-    //     img: "./watches-images/watch-12.jpg",
-    //     desc:"Buy the best watch from our shop.find a watch you never before.",
-    // }
+
 ]
 
 export default blogs;
