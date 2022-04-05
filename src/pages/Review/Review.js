@@ -1,33 +1,28 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
+import ReviewCard from '../../component/ReviewCard/ReviewCard'
 import './Review.css'
 
 const Review = () => {
+    //use effect review
+    const [review, setReview] = useState([])
+    useEffect(() => {
+        fetch("review.json")
+            .then((response) => response.json())
+            .then((json) => setReview(json)
+                
+            );
+    }, []);
     return (
         <section className="review">
         <div className="container">
-            <div className="row">
-                <div className="col-lg-4 col-md-6 col-12">
-                    <div className="review-card">
-                        <h1>Name:Arfan</h1>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p>Star : 5</p>
+        <h2 className="section-heading">Client Reviews</h2>
+        <div className="row">
+                        {
+                            review.length && (
+                                review.map((review,id)=><ReviewCard review={review} key={id}/>)
+                            )
+                        }
                     </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-12">
-                    <div className="review-card">
-                        <h1>Name:Arfan</h1>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p>Star : 5</p>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-12">
-                    <div className="review-card">
-                        <h1>Name:Arfan</h1>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p>Star : 5</p>
-                    </div>
-                </div>
-            </div>
             
         </div>
     </section>

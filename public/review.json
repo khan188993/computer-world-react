@@ -1,44 +1,50 @@
 [
     {
         "id":1,
-        "name": "arfan",
-        "desc": "very good product",
-        "img": "Img link will here",
-        "rating": 3
+        "name": "Tim Benton",
+        "title":"Web Developer",
+        "desc": "I wish you all the success in the world. Thank you for being such a delight to work with! Let me know if you need me for any future projects.",
+        "img": "./assets/client/player-1.png",
+        "rating": 5
     },
     {
         "id":2,
-        "name": "sopon",
-        "desc": "very good product",
-        "img": "Img link will here",
-        "rating": 5
+        "name": "Kamal Tinon",
+        "title":"Business Man",
+        "desc": "Always to love work with … . Explain every point clearly when i need and also helps to sort out things related to projects.",
+        "img": "./assets/client/player-2.png",
+        "rating": 4
     },
     {
         "id":3,
-        "name": "kajol",
-        "desc": "very good product",
-        "img": "Img link will here",
-        "rating": 1
+        "name": "Devod Kety",
+        "title":"Singer",
+        "desc": "He is a great client. Wonderful communication, helpful cooperation. I am looking forward to work with him. Great relationship and wonderful passion!",
+        "img": "./assets/client/player-3.png",
+        "rating": 3
     },
     {
         "id":4,
-        "name": "shuvo",
-        "desc": "very good product",
-        "img": "Img link will here",
-        "rating": 6
+        "name": "Kety brogur",
+        "title":"Artist",
+        "desc": "You are a darling client. Creative, polite and a fantastic communicator. Complete pleasure to work with you…and i hope I can be of service to you again in the future!",
+        "img": "./assets/client/player-4.png",
+        "rating": 5
     },
     {
         "id":5,
-        "name": "fahim",
-        "desc": "very good product",
-        "img": "Img link will here",
-        "rating": 2
+        "name": "Zara Kibal",
+        "title":"Writer",
+        "desc": "Thanks a million, I have really enjoyed working on this. I appreciate the tip as well 🙂 ! Thanks!",
+        "img": "./assets/client/player-5.png",
+        "rating": 4
     },
     {
         "id":6,
-        "name": "shanto",
-        "desc": "very good product",
-        "img": "Img link will here",
-        "rating": 5
+        "name": "Dock Ray",
+        "title":"Business Man",
+        "desc": "He is a great client. Wonderful communication, helpful cooperation. I am looking forward to work with him. Great relationship and wonderful passion!",
+        "img": "./assets/client/player-6.png",
+        "rating": 3
     }
 ]

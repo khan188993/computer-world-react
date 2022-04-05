@@ -11,3 +11,6 @@ Computer World - name logo,
 
 Desing krbo,
 (header section (logo, navbar,),hero section(leptop,title,p,button,),review SEction(3ta card dekhabo),review page 6/8 col e dekhabo card,dashboard chart last e,blog 3ta lekhbo blog site theke idea niye, contact form jodi time thake,)
+
+*)blog click single blog , blog page,
+*)

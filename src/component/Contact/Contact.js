@@ -1,7 +1,6 @@
 import React from 'react'
-import './Dashboard.css'
 
-const Dashboard = () => {
+const Contact = () => {
     return (
         <section className="contact py-60" id="contact">
         <h1 className="section-heading">Contact Us</h1>
@@ -23,9 +22,19 @@ const Dashboard = () => {
                     <span>72/1 S K Das Road, Gandaria, Puran Dhaka Bangladesh</span>
                 </div>
             </div>
+            
+            <div className="contact-form">
+                <form action="">
+                    <input type="text" placeholder="Name"/>
+                    <input type="email" placeholder="Email"/>
+                    <input type="text" placeholder="Subject"/>
+                    <textarea placeholder="Message..." id="" cols="30" rows="10"></textarea>
+                    <button type="submit" className="btn btn-square"> Submit</button>
+                </form>
+            </div>
         </div>
     </section>
     )
 }
 
-export default Dashboard
+export default Contact
