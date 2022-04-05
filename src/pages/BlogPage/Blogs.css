@@ -1,0 +1,13 @@
+.row {
+    grid-template-columns: repeat(1, 1fr);
+}
+.single-product {
+	width: 58%;
+	margin: auto;
+}
+
+@media  (max-width:726px) {
+    .single-product {
+        width: 100%;
+    }
+}

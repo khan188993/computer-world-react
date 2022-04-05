@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 const ReviewCard = ({ review }) => {
     const { name, desc, rating,img,title } = review;
@@ -17,7 +19,7 @@ const ReviewCard = ({ review }) => {
                     <span class="title">{title}</span>
                     <div className="rating">
                         {
-                            reviewStars.length > 0 && reviewStars.map(()=><i className="fas fa-star"></i>)
+                            reviewStars.length > 0 && reviewStars.map(()=><FontAwesomeIcon icon={faStar} />)
                         }
                         <span>{rating}</span>
                     </div>

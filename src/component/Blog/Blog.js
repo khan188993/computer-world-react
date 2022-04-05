@@ -11,9 +11,7 @@ const blog = ({blog}) => {
                     </div>
                     <div className="content">
                         <h3>{title}</h3>
-                        <p>{desc.length > 30 ? desc.split(0,30):desc}</p>
-                        {/* eita click krte single route run hobe */}
-                        <NavLink to="blogs" className='btn btn-square'>Read More</NavLink>
+                        <p>{desc}</p>
                     </div>
                 </div>
     )

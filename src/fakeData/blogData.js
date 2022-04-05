@@ -3,19 +3,19 @@ const blogs = [
         id: "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
         title: "How Context API Works?",
         img: "./assets/blogs/context-api.png",
-        desc:"Buy the best watch from our shop.find a watch you never before.",
+        desc:"the Context API helps to avoid prop drilling in our React application. if you don't know about the term prop drilling. So let's understand that first. ______________  In React, we can pass the data only in a single direction, i.e. from top to down (parent to child) via props. Prop drilling is a process where we need to pass down the props at each level in a deeply nested component tree so that we can access them in the component at the lowest level.  Context in React just provides a way to pass the data directly to the required components rather than passing them through every level of the component tree. So using React Context, we don't have to pass the props unnecessarily to all those intermediate components that do not need the   ",
     },
     {
         id: "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
         title: "What is the different between block inline and inline-block tags?",
         img: "./assets/blogs/display-inline.png",
-        desc:"Buy the best watch from our shop.find a watch you never before.",
+        desc:"Semantic HTML5 addresses this shortcoming by defining specific tags to indicate clearly what role is played by the content those tags contain.For example, header, Footer, article are considered semantic elements as they clearly describe their purpose and the type of content they should enclose. Semantic tags also help search engines to parse the webpage correctly and find accurate information. Thus, helping search engines to correctly index the page.",
     },
     {
         id: "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
         title: "What is simentic tag ?",
         img: "./assets/blogs/simentic-tag.png",
-        desc:"Buy the best watch from our shop.find a watch you never before.",
+        desc:"Semantic HTML5 addresses this shortcoming by defining specific tags to indicate clearly what role is played by the content those tags contain.For example, header, Footer, article are considered semantic elements as they clearly describe their purpose and the type of content they should enclose. Semantic tags also help search engines to parse the webpage correctly and find accurate information. Thus, helping search engines to correctly index the page.",
         
     },
     // {

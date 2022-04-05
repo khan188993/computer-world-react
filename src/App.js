@@ -1,7 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import "./css/MyApp.css";
 import "./css/responsive.css";
+import "./css/MyApp.css";
+
 import Home from "./pages/Home/Home";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import Review from "./pages/Review/Review";

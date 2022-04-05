@@ -1,18 +1,19 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
+    const [Hamberger, setHamberger] = useState(false)
     return (
         <header className="header" id="header">
         <div className="container">
-            {/* <d className="hamberger d-none"><i className="fas fa-bars"></i></d> */}
+            <d className="hamberger d-none" onClick={()=>setHamberger(!Hamberger)}><i className="fas fa-bars"></i></d>
             <div className="logo">     
             <NavLink className="navbar-brand" to="/">
                     COMPUTER World
             </NavLink>
             </div>
             <nav>
-                <ul className="main-menu">
+                <ul className={Hamberger? "main-menu hamberger" :"main-menu"}>
                     <li><NavLink className={({ isActive }) =>
                                     isActive ? "width-100" : " "
                                 } to="/">Home</NavLink></li>

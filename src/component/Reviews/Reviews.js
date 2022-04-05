@@ -1,19 +1,13 @@
 import React, { useEffect,useState } from "react";
 import { useNavigate } from "react-router-dom";
+import useReviews from "../../hooks/useReviews";
 import ReviewCard from "../ReviewCard/ReviewCard";
 
 const Reviews = () => {
 
-    //useEffect
-    const [review, setReview] = useState([])
+    //useEffect custom hooks
+    const [review, setReview] = useReviews();
     let navigate = useNavigate();
-    useEffect(() => {
-        fetch("review.json")
-            .then((response) => response.json())
-            .then((json) => setReview(json)
-                
-            );
-    }, []);
 
     //Review Showing 3 if more than 3 
     let newReviews = [];

@@ -15,6 +15,10 @@
       max-width: 768px;
      
     }
+
+    .row {
+      grid-template-columns: repeat(2, 1fr);
+    }
     nav ul {
       position: fixed;
       top: 0;
@@ -27,6 +31,10 @@
       transition: 0.3s;
       padding-top: 70px;
       z-index: 10;
+    }
+
+    .hamberger{
+      left: 0%;
     }
     nav ul li a::before,
     nav ul li a::after {

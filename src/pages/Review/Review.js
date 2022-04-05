@@ -1,17 +1,11 @@
-import React,{useState,useEffect} from 'react'
+import React from 'react'
 import ReviewCard from '../../component/ReviewCard/ReviewCard'
+import useReviews from '../../hooks/useReviews'
 import './Review.css'
 
 const Review = () => {
-    //use effect review
-    const [review, setReview] = useState([])
-    useEffect(() => {
-        fetch("review.json")
-            .then((response) => response.json())
-            .then((json) => setReview(json)
-                
-            );
-    }, []);
+    //useEffect custom hooks
+    const [review, setReview] = useReviews();
     return (
         <section className="review">
         <div className="container">
